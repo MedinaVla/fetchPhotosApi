@@ -1,0 +1,33 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+        {
+            "name": "riverpod_api",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/main.dart",
+            "args": [
+                "--dart-define",
+                "apiUrl=https://jsonplaceholder.typicode.com",
+            ]
+        },
+ 
+        {
+            "name": "riverpod_api (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "photos",
+            "cwd": "packages\\photos",
+            "request": "launch",
+            "type": "dart"
+        }
+    ]
+}
